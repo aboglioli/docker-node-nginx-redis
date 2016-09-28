@@ -1,8 +1,10 @@
 # Docker, Node + Express, Redis
 
-Based on [b00giZm/docker-compose-nodejs-examples](https://github.com/b00giZm/docker-compose-nodejs-examples)
+Based on [b00giZm/docker-compose-nodejs-examples](https://github.com/b00giZm/docker-compose-nodejs-examples).
 
-Building and running the containers
+*docker-compose* is used to manage the containers and their creations.
+
+Building and running the containers.
 
 ```
 cd {the folder of this repository}
@@ -10,7 +12,7 @@ cd {the folder of this repository}
 # Building all Dockerfiles
 docker-compose build
 
-# Run the container
+# Run the containers
 docker-compose up
 ```
 
